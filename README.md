@@ -4,10 +4,7 @@ Arbor é uma linguagem de programação inspirada em árvores, que gera uma Árv
 
 ## Apresentação
 
-A apresentação completa da linguagem pode ser encontrada:
-- [Link para apresentação no Gamma.app](seu_link_aqui)
-- [Apresentação em PDF](./apresentacao.pdf)
-- [Apresentação em PowerPoint](./apresentacao.pptx)
+A apresentação completa da linguagem pode ser encontrada no PDF dentro do repositório
 
 ## Gramática (EBNF)
 
