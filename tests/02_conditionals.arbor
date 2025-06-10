@@ -1,0 +1,46 @@
+// Test conditional statements
+seed x = 10
+seed y = 5
+
+// Simple if
+branch x > y then {
+    print "x is greater than y"
+}
+
+// If-else
+branch x < y then {
+    print "x is less than y"
+} else {
+    print "x is not less than y"
+}
+
+// Nested conditionals
+branch x >= 0 then {
+    branch y >= 0 then {
+        print "Both x and y are non-negative"
+    } else {
+        print "Only x is non-negative"
+    }
+} else {
+    print "x is negative"
+}
+
+// Testing all comparison operators
+branch x == y then {
+    print "Equal"
+}
+branch x != y then {
+    print "Not equal"
+}
+branch x > y then {
+    print "Greater than"
+}
+branch x < y then {
+    print "Less than"
+}
+branch x >= y then {
+    print "Greater than or equal"
+}
+branch x <= y then {
+    print "Less than or equal"
+} 

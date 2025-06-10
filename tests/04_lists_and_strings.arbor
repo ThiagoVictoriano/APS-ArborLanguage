@@ -1,0 +1,25 @@
+// Test lists and strings
+seed empty_list = []
+seed numbers = [1, 2, 3, 4, 5]
+seed mixed_list = [1, "two", 3, "four"]
+seed greeting = "Hello, World!"
+
+// Print lists
+print empty_list
+print numbers
+print mixed_list
+
+// Print string
+print greeting
+
+// List iteration with strings
+seed words = ["Hello", "from", "Arbor", "language"]
+grow word in words {
+    print word
+}
+
+// List iteration with numbers
+seed nums = [10, 20, 30, 40, 50]
+grow n in nums {
+    print n
+} 

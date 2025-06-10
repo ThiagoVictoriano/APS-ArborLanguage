@@ -1,0 +1,29 @@
+// Test list storage and manipulation
+seed empty = []
+print empty  // Should print []
+
+// Create and print a list
+seed numbers = [1, 2, 3, 4, 5]
+print numbers  // Should print [1, 2, 3, 4, 5]
+
+// Mixed type list
+seed mixed = [1, "hello", 3, "world"]
+print mixed  // Should print [1, "hello", 3, "world"]
+
+// List iteration
+grow num in numbers {
+    print num  // Should print each number on a new line
+}
+
+// Variable assignment in loop
+seed sum = 0
+grow num in numbers {
+    sum = sum + num
+}
+print sum  // Should print 15 (sum of numbers 1 to 5)
+
+// List with variables
+seed x = 10
+seed y = 20
+seed vars = [x, y]
+print vars  // Should print [10, 20] 

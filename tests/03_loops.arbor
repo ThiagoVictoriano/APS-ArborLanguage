@@ -1,0 +1,31 @@
+// Test loop statements
+seed counter = 0
+
+// While loop counting up
+grow while counter < 5 {
+    print counter
+    counter = counter + 1
+}
+
+// While loop counting down
+grow while counter > 0 {
+    counter = counter - 1
+    print counter
+}
+
+// List iteration
+seed numbers = [1, 2, 3, 4, 5]
+grow item in numbers {
+    print item
+}
+
+// Nested loops
+seed i = 0
+grow while i < 3 {
+    seed j = 0
+    grow while j < 2 {
+        print i * j
+        j = j + 1
+    }
+    i = i + 1
+} 

@@ -1,4 +1,0 @@
-seed i = 0
-seed j = 0
-print i
-print j

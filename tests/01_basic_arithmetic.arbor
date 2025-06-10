@@ -1,0 +1,23 @@
+// Test basic arithmetic operations
+seed x = 10
+seed y = 5
+
+// Addition
+seed sum = x + y
+print sum  // Should print 15
+
+// Subtraction
+seed diff = x - y
+print diff  // Should print 5
+
+// Multiplication
+seed prod = x * y
+print prod  // Should print 50
+
+// Division
+seed quot = x / y
+print quot  // Should print 2
+
+// Complex expression
+seed result = (x + y) * (x - y) / 2
+print result  // Should print 37 
